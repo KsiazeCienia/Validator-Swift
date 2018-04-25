@@ -8,20 +8,6 @@
 
 import Foundation
 
-/*
- Przykład użycia
- let word = "text"
- let lengthRule = ValidatorRuleLenth(rule: .maximumLength, value: 69)
- let email = ValidatorRulePattern(pattern: .email)
- let result = word.validated(rules: [lengthRule, email])
- switch result {
- case invalid(let error):
- print("porawny")
- case valid:
- print("niepopwarny")
- }
- */
-
 enum Result {
     case invalid(error: String)
     case valid
